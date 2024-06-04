@@ -8,20 +8,20 @@ function getAverage(scores) {
   return average;
 }
 
-function getGrade(score) {
+ffunction getGrade(score) {
     if (score <= 100) {
       console.log("A++");
-      else (score <= 94) {
+    }
+      else if (score <= 94) {
         console.log("A");
-        else (score <= 89) {
+      }
+        else if (score <= 89) {
           console.log("B");
-          else (score <= 78) {
+        }
+          else {(score <= 78)
             console.log("C");
           }
         }
-      }
-    }
-    }
     
     console.log(getGrade(96));
     console.log(getGrade(82));
